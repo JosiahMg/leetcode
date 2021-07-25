@@ -30,11 +30,6 @@ Output: [0,1]
 
 from typing import List
 
-"""
-暴力求解
-时间复杂的: O(2^n)
-空间复杂度: O(1)
-"""
 
 class Solution:
     """
