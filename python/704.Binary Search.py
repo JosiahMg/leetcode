@@ -24,6 +24,10 @@ Explanation: 2 does not exist in nums so return -1
 from typing import List
 
 class Solution:
+    """
+    时间复杂的: O(log n)
+    空间复杂度: O(1)
+    """
     def search(self, nums: List[int], target: int) -> int:
         left = 0
         right = len(nums) - 1
